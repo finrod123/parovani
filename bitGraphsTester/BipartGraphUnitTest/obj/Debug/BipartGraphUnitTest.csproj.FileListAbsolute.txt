@@ -1,0 +1,5 @@
+C:\Documents and Settings\Tom\Dokumenty\Visual Studio 2008\Projects\parovani\bitGraphsTester\BipartGraphUnitTest\bin\Debug\BipartGraphUnitTest.dll
+C:\Documents and Settings\Tom\Dokumenty\Visual Studio 2008\Projects\parovani\bitGraphsTester\BipartGraphUnitTest\bin\Debug\BipartGraphUnitTest.pdb
+C:\Documents and Settings\Tom\Dokumenty\Visual Studio 2008\Projects\parovani\bitGraphsTester\BipartGraphUnitTest\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Tom\Dokumenty\Visual Studio 2008\Projects\parovani\bitGraphsTester\BipartGraphUnitTest\obj\Debug\BipartGraphUnitTest.dll
+C:\Documents and Settings\Tom\Dokumenty\Visual Studio 2008\Projects\parovani\bitGraphsTester\BipartGraphUnitTest\obj\Debug\BipartGraphUnitTest.pdb

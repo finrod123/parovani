@@ -1,0 +1,13 @@
+C:\Documents and Settings\benat7am\My Documents\Visual Studio 2008\Projects\BipartGraphCreator\BipartGraphCreator\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\benat7am\My Documents\Visual Studio 2008\Projects\BipartGraphCreator\BipartGraphCreator\bin\Debug\BipartGraphCreator.dll
+C:\Documents and Settings\benat7am\My Documents\Visual Studio 2008\Projects\BipartGraphCreator\BipartGraphCreator\bin\Debug\BipartGraphCreator.pdb
+C:\Documents and Settings\benat7am\My Documents\Visual Studio 2008\Projects\BipartGraphCreator\BipartGraphCreator\obj\Debug\BipartGraphCreator.dll
+C:\Documents and Settings\benat7am\My Documents\Visual Studio 2008\Projects\BipartGraphCreator\BipartGraphCreator\obj\Debug\BipartGraphCreator.pdb
+C:\Documents and Settings\benat7am.ROT-117-C.000\My Documents\Visual Studio 2008\Projects\BipartGraphCreator\BipartGraphCreator\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\benat7am.ROT-117-C.000\My Documents\Visual Studio 2008\Projects\BipartGraphCreator\BipartGraphCreator\obj\Debug\BipartGraphCreator.dll
+C:\Documents and Settings\benat7am.ROT-117-C.000\My Documents\Visual Studio 2008\Projects\BipartGraphCreator\BipartGraphCreator\obj\Debug\BipartGraphCreator.pdb
+C:\Documents and Settings\Tom\Dokumenty\Visual Studio 2008\Projects\parovani\BipartGraphCreator\BipartGraphCreator\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Tom\Dokumenty\Visual Studio 2008\Projects\parovani\BipartGraphCreator\BipartGraphCreator\obj\Debug\BipartGraphCreator.dll
+C:\Documents and Settings\Tom\Dokumenty\Visual Studio 2008\Projects\parovani\BipartGraphCreator\BipartGraphCreator\obj\Debug\BipartGraphCreator.pdb
+C:\Documents and Settings\Tom\Dokumenty\Visual Studio 2008\Projects\parovani\BipartGraphCreator\BipartGraphCreator\bin\Debug\BipartGraphCreator.dll
+C:\Documents and Settings\Tom\Dokumenty\Visual Studio 2008\Projects\parovani\BipartGraphCreator\BipartGraphCreator\bin\Debug\BipartGraphCreator.pdb

@@ -1,0 +1,31 @@
+C:\Documents and Settings\Tom\Dokumenty\Visual Studio 2008\Projects\parovani\maxParovaniBipartGraph\testParovani\bin\Debug\testParovani.exe
+C:\Documents and Settings\Tom\Dokumenty\Visual Studio 2008\Projects\parovani\maxParovaniBipartGraph\testParovani\bin\Debug\testParovani.pdb
+C:\Documents and Settings\Tom\Dokumenty\Visual Studio 2008\Projects\parovani\maxParovaniBipartGraph\testParovani\bin\Debug\maxParovaniBipartGraph.pdb
+C:\Documents and Settings\Tom\Dokumenty\Visual Studio 2008\Projects\parovani\maxParovaniBipartGraph\testParovani\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Tom\Dokumenty\Visual Studio 2008\Projects\parovani\maxParovaniBipartGraph\testParovani\obj\Debug\testParovani.exe
+C:\Documents and Settings\Tom\Dokumenty\Visual Studio 2008\Projects\parovani\maxParovaniBipartGraph\testParovani\obj\Debug\testParovani.pdb
+C:\Documents and Settings\benat7am.ROT-115-C\My Documents\Visual Studio 2008\Projects\maxParovaniBipartGraph\testParovani\obj\Debug\testParovani.exe
+C:\Documents and Settings\benat7am.ROT-115-C\My Documents\Visual Studio 2008\Projects\maxParovaniBipartGraph\testParovani\obj\Debug\testParovani.pdb
+C:\Documents and Settings\benat7am.ROT-115-C\My Documents\Visual Studio 2008\Projects\maxParovaniBipartGraph\testParovani\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\benat7am.ROT-115-C\My Documents\Visual Studio 2008\Projects\maxParovaniBipartGraph\testParovani\bin\Debug\testParovani.exe
+C:\Documents and Settings\benat7am.ROT-115-C\My Documents\Visual Studio 2008\Projects\maxParovaniBipartGraph\testParovani\bin\Debug\testParovani.pdb
+C:\Documents and Settings\benat7am.ROT-115-C\My Documents\Visual Studio 2008\Projects\maxParovaniBipartGraph\testParovani\bin\Debug\maxParovaniBipartGraph.dll
+C:\Documents and Settings\benat7am.ROT-115-C\My Documents\Visual Studio 2008\Projects\maxParovaniBipartGraph\testParovani\bin\Debug\maxParovaniBipartGraph.pdb
+C:\Documents and Settings\Tom\Dokumenty\Visual Studio 2008\Projects\parovani\maxParovaniBipartGraph\testParovani\bin\Debug\maxParovaniBipartGraph.dll
+C:\Documents and Settings\benat7am\My Documents\Visual Studio 2008\Projects\parovani\maxParovaniBipartGraph\testParovani\obj\Debug\testParovani.exe
+C:\Documents and Settings\benat7am\My Documents\Visual Studio 2008\Projects\parovani\maxParovaniBipartGraph\testParovani\obj\Debug\testParovani.pdb
+C:\Documents and Settings\benat7am\My Documents\Visual Studio 2008\Projects\parovani\maxParovaniBipartGraph\testParovani\bin\Debug\testParovani.exe
+C:\Documents and Settings\benat7am\My Documents\Visual Studio 2008\Projects\parovani\maxParovaniBipartGraph\testParovani\bin\Debug\testParovani.pdb
+C:\Documents and Settings\benat7am\My Documents\Visual Studio 2008\Projects\parovani\maxParovaniBipartGraph\testParovani\bin\Debug\maxParovaniBipartGraph.dll
+C:\Documents and Settings\benat7am\My Documents\Visual Studio 2008\Projects\parovani\maxParovaniBipartGraph\testParovani\bin\Debug\maxParovaniBipartGraph.pdb
+C:\Documents and Settings\benat7am\My Documents\Visual Studio 2008\Projects\parovani\maxParovaniBipartGraph\testParovani\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\benat7am\My Documents\Visual Studio 2008\Projects\parovani\maxParovaniBipartGraph\testParovani\bin\Debug\BipartGraphCreator.dll
+C:\Documents and Settings\benat7am\My Documents\Visual Studio 2008\Projects\parovani\maxParovaniBipartGraph\testParovani\bin\Debug\BipartGraphCreator.pdb
+C:\Documents and Settings\Tom\Dokumenty\Visual Studio 2008\Projects\parovani\testParovani\obj\Debug\testParovani.exe
+C:\Documents and Settings\Tom\Dokumenty\Visual Studio 2008\Projects\parovani\testParovani\obj\Debug\testParovani.pdb
+C:\Documents and Settings\Tom\Dokumenty\Visual Studio 2008\Projects\parovani\testParovani\bin\Debug\testParovani.exe
+C:\Documents and Settings\Tom\Dokumenty\Visual Studio 2008\Projects\parovani\testParovani\bin\Debug\testParovani.pdb
+C:\Documents and Settings\Tom\Dokumenty\Visual Studio 2008\Projects\parovani\testParovani\bin\Debug\BipartGraphCreator.dll
+C:\Documents and Settings\Tom\Dokumenty\Visual Studio 2008\Projects\parovani\testParovani\bin\Debug\maxParovaniBipartGraph.pdb
+C:\Documents and Settings\Tom\Dokumenty\Visual Studio 2008\Projects\parovani\testParovani\bin\Debug\BipartGraphCreator.pdb
+C:\Documents and Settings\Tom\Dokumenty\Visual Studio 2008\Projects\parovani\testParovani\obj\Debug\ResolveAssemblyReference.cache

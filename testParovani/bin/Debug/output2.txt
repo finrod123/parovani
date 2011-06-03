@@ -1,0 +1,43 @@
+Grafy se stejne velkymi partitami
+
+
+Velikost grafu ve skupine: 10	Pocet grafu: 10	Ocekavany pocet fazi: 3,16227766016838	Namereny prumerny pocet fazi: 4,7
+Velikost grafu ve skupine: 20	Pocet grafu: 10	Ocekavany pocet fazi: 4,47213595499958	Namereny prumerny pocet fazi: 10
+Velikost grafu ve skupine: 30	Pocet grafu: 10	Ocekavany pocet fazi: 5,47722557505166	Namereny prumerny pocet fazi: 15
+Velikost grafu ve skupine: 40	Pocet grafu: 10	Ocekavany pocet fazi: 6,32455532033676	Namereny prumerny pocet fazi: 20
+Velikost grafu ve skupine: 50	Pocet grafu: 10	Ocekavany pocet fazi: 7,07106781186548	Namereny prumerny pocet fazi: 25
+Velikost grafu ve skupine: 60	Pocet grafu: 10	Ocekavany pocet fazi: 7,74596669241483	Namereny prumerny pocet fazi: 30
+Velikost grafu ve skupine: 70	Pocet grafu: 10	Ocekavany pocet fazi: 8,36660026534076	Namereny prumerny pocet fazi: 35
+Velikost grafu ve skupine: 80	Pocet grafu: 10	Ocekavany pocet fazi: 8,94427190999916	Namereny prumerny pocet fazi: 40
+Velikost grafu ve skupine: 90	Pocet grafu: 10	Ocekavany pocet fazi: 9,48683298050514	Namereny prumerny pocet fazi: 45
+Velikost grafu ve skupine: 100	Pocet grafu: 10	Ocekavany pocet fazi: 10		Namereny prumerny pocet fazi: 50
+Velikost grafu ve skupine: 110	Pocet grafu: 10	Ocekavany pocet fazi: 10,4880884817015	Namereny prumerny pocet fazi: 55
+Velikost grafu ve skupine: 120	Pocet grafu: 10	Ocekavany pocet fazi: 10,9544511501033	Namereny prumerny pocet fazi: 60
+Velikost grafu ve skupine: 130	Pocet grafu: 10	Ocekavany pocet fazi: 11,4017542509914	Namereny prumerny pocet fazi: 65
+Velikost grafu ve skupine: 140	Pocet grafu: 10	Ocekavany pocet fazi: 11,8321595661992	Namereny prumerny pocet fazi: 70
+Velikost grafu ve skupine: 150	Pocet grafu: 10	Ocekavany pocet fazi: 12,2474487139159	Namereny prumerny pocet fazi: 75
+Velikost grafu ve skupine: 160	Pocet grafu: 10	Ocekavany pocet fazi: 12,6491106406735	Namereny prumerny pocet fazi: 80
+Velikost grafu ve skupine: 170	Pocet grafu: 10	Ocekavany pocet fazi: 13,0384048104053	Namereny prumerny pocet fazi: 85
+Velikost grafu ve skupine: 180	Pocet grafu: 10	Ocekavany pocet fazi: 13,4164078649987	Namereny prumerny pocet fazi: 90
+Velikost grafu ve skupine: 190	Pocet grafu: 10	Ocekavany pocet fazi: 13,7840487520902	Namereny prumerny pocet fazi: 95
+Velikost grafu ve skupine: 200	Pocet grafu: 10	Ocekavany pocet fazi: 14,142135623731	Namereny prumerny pocet fazi: 100
+Velikost grafu ve skupine: 210	Pocet grafu: 10	Ocekavany pocet fazi: 14,4913767461894	Namereny prumerny pocet fazi: 105
+Velikost grafu ve skupine: 220	Pocet grafu: 10	Ocekavany pocet fazi: 14,8323969741913	Namereny prumerny pocet fazi: 110
+Velikost grafu ve skupine: 230	Pocet grafu: 10	Ocekavany pocet fazi: 15,1657508881031	Namereny prumerny pocet fazi: 115
+Velikost grafu ve skupine: 240	Pocet grafu: 10	Ocekavany pocet fazi: 15,4919333848297	Namereny prumerny pocet fazi: 120
+Velikost grafu ve skupine: 250	Pocet grafu: 10	Ocekavany pocet fazi: 15,8113883008419	Namereny prumerny pocet fazi: 125
+Velikost grafu ve skupine: 260	Pocet grafu: 10	Ocekavany pocet fazi: 16,1245154965971	Namereny prumerny pocet fazi: 130
+Velikost grafu ve skupine: 270	Pocet grafu: 10	Ocekavany pocet fazi: 16,431676725155	Namereny prumerny pocet fazi: 135
+Velikost grafu ve skupine: 280	Pocet grafu: 10	Ocekavany pocet fazi: 16,7332005306815	Namereny prumerny pocet fazi: 140
+Velikost grafu ve skupine: 290	Pocet grafu: 10	Ocekavany pocet fazi: 17,0293863659264	Namereny prumerny pocet fazi: 145
+Velikost grafu ve skupine: 300	Pocet grafu: 10	Ocekavany pocet fazi: 17,3205080756888	Namereny prumerny pocet fazi: 150
+Velikost grafu ve skupine: 310	Pocet grafu: 10	Ocekavany pocet fazi: 17,606816861659	Namereny prumerny pocet fazi: 155
+Velikost grafu ve skupine: 320	Pocet grafu: 10	Ocekavany pocet fazi: 17,8885438199983	Namereny prumerny pocet fazi: 160
+Velikost grafu ve skupine: 330	Pocet grafu: 10	Ocekavany pocet fazi: 18,1659021245849	Namereny prumerny pocet fazi: 165
+Velikost grafu ve skupine: 340	Pocet grafu: 10	Ocekavany pocet fazi: 18,4390889145858	Namereny prumerny pocet fazi: 170
+Velikost grafu ve skupine: 350	Pocet grafu: 10	Ocekavany pocet fazi: 18,7082869338697	Namereny prumerny pocet fazi: 175
+Velikost grafu ve skupine: 360	Pocet grafu: 10	Ocekavany pocet fazi: 18,9736659610103	Namereny prumerny pocet fazi: 180
+Velikost grafu ve skupine: 370	Pocet grafu: 10	Ocekavany pocet fazi: 19,2353840616713	Namereny prumerny pocet fazi: 185
+Velikost grafu ve skupine: 380	Pocet grafu: 10	Ocekavany pocet fazi: 19,4935886896179	Namereny prumerny pocet fazi: 190
+Velikost grafu ve skupine: 390	Pocet grafu: 10	Ocekavany pocet fazi: 19,7484176581315	Namereny prumerny pocet fazi: 195
+Velikost grafu ve skupine: 400	Pocet grafu: 10	Ocekavany pocet fazi: 20		Namereny prumerny pocet fazi: 200

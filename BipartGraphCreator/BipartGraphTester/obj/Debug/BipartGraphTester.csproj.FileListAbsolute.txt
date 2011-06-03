@@ -1,0 +1,5 @@
+C:\Documents and Settings\benat7am\My Documents\Visual Studio 2008\Projects\BipartGraphCreator\BipartGraphTester\bin\Debug\BipartGraphTester.exe
+C:\Documents and Settings\benat7am\My Documents\Visual Studio 2008\Projects\BipartGraphCreator\BipartGraphTester\bin\Debug\BipartGraphTester.pdb
+C:\Documents and Settings\benat7am\My Documents\Visual Studio 2008\Projects\BipartGraphCreator\BipartGraphTester\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\benat7am\My Documents\Visual Studio 2008\Projects\BipartGraphCreator\BipartGraphTester\obj\Debug\BipartGraphTester.exe
+C:\Documents and Settings\benat7am\My Documents\Visual Studio 2008\Projects\BipartGraphCreator\BipartGraphTester\obj\Debug\BipartGraphTester.pdb

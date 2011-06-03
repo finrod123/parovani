@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BipartGraphCreator", "BipartGraphCreator\BipartGraphCreator.csproj", "{06CCA485-412B-4DE0-9DF7-2F76621EF099}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BipartGraphTester", "BipartGraphTester\BipartGraphTester.csproj", "{7CD468FD-AF13-429F-82CB-C9A605E7EEAD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06CCA485-412B-4DE0-9DF7-2F76621EF099}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06CCA485-412B-4DE0-9DF7-2F76621EF099}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06CCA485-412B-4DE0-9DF7-2F76621EF099}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06CCA485-412B-4DE0-9DF7-2F76621EF099}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CD468FD-AF13-429F-82CB-C9A605E7EEAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CD468FD-AF13-429F-82CB-C9A605E7EEAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CD468FD-AF13-429F-82CB-C9A605E7EEAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CD468FD-AF13-429F-82CB-C9A605E7EEAD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,1 @@
+call "C:\Documents and Settings\benat7am\My Documents\Visual Studio 2008\Projects\parovani\bitGraphsTester\bitGraphsTester\bin\Debug\bitGraphsTester.exe"

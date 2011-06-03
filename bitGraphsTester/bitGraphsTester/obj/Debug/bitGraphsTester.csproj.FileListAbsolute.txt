@@ -1,0 +1,33 @@
+C:\Documents and Settings\benat7am\My Documents\Visual Studio 2008\Projects\bitGraphsTester\bitGraphsTester\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\benat7am\My Documents\Visual Studio 2008\Projects\bitGraphsTester\bitGraphsTester\bin\Debug\bitGraphsTester.exe
+C:\Documents and Settings\benat7am\My Documents\Visual Studio 2008\Projects\bitGraphsTester\bitGraphsTester\bin\Debug\bitGraphsTester.pdb
+C:\Documents and Settings\benat7am\My Documents\Visual Studio 2008\Projects\bitGraphsTester\bitGraphsTester\bin\Debug\BipartGraphCreator.dll
+C:\Documents and Settings\benat7am\My Documents\Visual Studio 2008\Projects\bitGraphsTester\bitGraphsTester\bin\Debug\BipartGraphCreator.pdb
+C:\Documents and Settings\benat7am\My Documents\Visual Studio 2008\Projects\bitGraphsTester\bitGraphsTester\obj\Debug\bitGraphsTester.exe
+C:\Documents and Settings\benat7am\My Documents\Visual Studio 2008\Projects\bitGraphsTester\bitGraphsTester\obj\Debug\bitGraphsTester.pdb
+C:\Documents and Settings\Tom\Dokumenty\Visual Studio 2008\Projects\parovani\bitGraphsTester\bitGraphsTester\bin\Debug\bitGraphsTester.exe
+C:\Documents and Settings\Tom\Dokumenty\Visual Studio 2008\Projects\parovani\bitGraphsTester\bitGraphsTester\bin\Debug\bitGraphsTester.pdb
+C:\Documents and Settings\Tom\Dokumenty\Visual Studio 2008\Projects\parovani\bitGraphsTester\bitGraphsTester\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Tom\Dokumenty\Visual Studio 2008\Projects\parovani\bitGraphsTester\bitGraphsTester\obj\Debug\bitGraphsTester.exe
+C:\Documents and Settings\Tom\Dokumenty\Visual Studio 2008\Projects\parovani\bitGraphsTester\bitGraphsTester\obj\Debug\bitGraphsTester.pdb
+C:\Documents and Settings\benat7am.ROT-115-C\My Documents\Visual Studio 2008\Projects\bitGraphsTester\bitGraphsTester\bin\Debug\bitGraphsTester.exe
+C:\Documents and Settings\benat7am.ROT-115-C\My Documents\Visual Studio 2008\Projects\bitGraphsTester\bitGraphsTester\bin\Debug\bitGraphsTester.pdb
+C:\Documents and Settings\benat7am.ROT-115-C\My Documents\Visual Studio 2008\Projects\bitGraphsTester\bitGraphsTester\bin\Debug\BipartGraphCreator.dll
+C:\Documents and Settings\benat7am.ROT-115-C\My Documents\Visual Studio 2008\Projects\bitGraphsTester\bitGraphsTester\bin\Debug\BipartGraphCreator.pdb
+C:\Documents and Settings\benat7am.ROT-115-C\My Documents\Visual Studio 2008\Projects\bitGraphsTester\bitGraphsTester\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\benat7am.ROT-115-C\My Documents\Visual Studio 2008\Projects\bitGraphsTester\bitGraphsTester\obj\Debug\bitGraphsTester.exe
+C:\Documents and Settings\benat7am.ROT-115-C\My Documents\Visual Studio 2008\Projects\bitGraphsTester\bitGraphsTester\obj\Debug\bitGraphsTester.pdb
+C:\Documents and Settings\benat7am\My Documents\Visual Studio 2008\Projects\parovani\bitGraphsTester\bitGraphsTester\obj\Debug\bitGraphsTester.exe
+C:\Documents and Settings\benat7am\My Documents\Visual Studio 2008\Projects\parovani\bitGraphsTester\bitGraphsTester\obj\Debug\bitGraphsTester.pdb
+C:\Documents and Settings\benat7am\My Documents\Visual Studio 2008\Projects\parovani\bitGraphsTester\bitGraphsTester\bin\Debug\bitGraphsTester.exe
+C:\Documents and Settings\benat7am\My Documents\Visual Studio 2008\Projects\parovani\bitGraphsTester\bitGraphsTester\bin\Debug\bitGraphsTester.pdb
+C:\Documents and Settings\benat7am\My Documents\Visual Studio 2008\Projects\parovani\bitGraphsTester\bitGraphsTester\bin\Debug\BipartGraphCreator.dll
+C:\Documents and Settings\benat7am\My Documents\Visual Studio 2008\Projects\parovani\bitGraphsTester\bitGraphsTester\bin\Debug\BipartGraphCreator.pdb
+C:\Documents and Settings\benat7am\My Documents\Visual Studio 2008\Projects\parovani\bitGraphsTester\bitGraphsTester\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\benat7am.ROT-117-C.000\My Documents\Visual Studio 2008\Projects\bitGraphsTester\bitGraphsTester\obj\Debug\bitGraphsTester.exe
+C:\Documents and Settings\benat7am.ROT-117-C.000\My Documents\Visual Studio 2008\Projects\bitGraphsTester\bitGraphsTester\obj\Debug\bitGraphsTester.pdb
+C:\Documents and Settings\benat7am.ROT-117-C.000\My Documents\Visual Studio 2008\Projects\bitGraphsTester\bitGraphsTester\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\benat7am.ROT-117-C.000\My Documents\Visual Studio 2008\Projects\bitGraphsTester\bitGraphsTester\bin\Debug\bitGraphsTester.exe
+C:\Documents and Settings\benat7am.ROT-117-C.000\My Documents\Visual Studio 2008\Projects\bitGraphsTester\bitGraphsTester\bin\Debug\bitGraphsTester.pdb
+C:\Documents and Settings\Tom\Dokumenty\Visual Studio 2008\Projects\parovani\bitGraphsTester\bitGraphsTester\bin\Debug\BipartGraphCreator.dll
+C:\Documents and Settings\Tom\Dokumenty\Visual Studio 2008\Projects\parovani\bitGraphsTester\bitGraphsTester\bin\Debug\BipartGraphCreator.pdb

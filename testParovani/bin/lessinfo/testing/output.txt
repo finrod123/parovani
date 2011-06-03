@@ -1,0 +1,2 @@
+
+Velikost grafu ve skupine: 200	Pocet grafu: 1000	Ocekavany nejhorsi pocet fazi: 14,142135623731	Namereny nejhorsi pocet fazi: 2

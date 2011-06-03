@@ -1,0 +1,23 @@
+Grafy s velikosti partit od 2 do n/2
+Pocet grafu ve skupine: 10
+
+Velikost grafu ve skupine: 10	Ocekavany pocet fazi: 3,16227766016838	Prumerny pocet fazi: 3
+Velikost grafu ve skupine: 20	Ocekavany pocet fazi: 4,47213595499958	Prumerny pocet fazi: 5
+Velikost grafu ve skupine: 30	Ocekavany pocet fazi: 5,47722557505166	Prumerny pocet fazi: 7
+Velikost grafu ve skupine: 40	Ocekavany pocet fazi: 6,32455532033676	Prumerny pocet fazi: 11
+Velikost grafu ve skupine: 50	Ocekavany pocet fazi: 7,07106781186548	Prumerny pocet fazi: 12
+Velikost grafu ve skupine: 60	Ocekavany pocet fazi: 7,74596669241483	Prumerny pocet fazi: 13
+Velikost grafu ve skupine: 70	Ocekavany pocet fazi: 8,36660026534076	Prumerny pocet fazi: 18
+Velikost grafu ve skupine: 80	Ocekavany pocet fazi: 8,94427190999916	Prumerny pocet fazi: 21
+Velikost grafu ve skupine: 90	Ocekavany pocet fazi: 9,48683298050514	Prumerny pocet fazi: 25
+Velikost grafu ve skupine: 100	Ocekavany pocet fazi: 10		Prumerny pocet fazi: 26
+Velikost grafu ve skupine: 110	Ocekavany pocet fazi: 10,4880884817015	Prumerny pocet fazi: 31
+Velikost grafu ve skupine: 120	Ocekavany pocet fazi: 10,9544511501033	Prumerny pocet fazi: 30
+Velikost grafu ve skupine: 130	Ocekavany pocet fazi: 11,4017542509914	Prumerny pocet fazi: 34
+Velikost grafu ve skupine: 140	Ocekavany pocet fazi: 11,8321595661992	Prumerny pocet fazi: 35
+Velikost grafu ve skupine: 150	Ocekavany pocet fazi: 12,2474487139159	Prumerny pocet fazi: 39
+Velikost grafu ve skupine: 160	Ocekavany pocet fazi: 12,6491106406735	Prumerny pocet fazi: 37
+Velikost grafu ve skupine: 170	Ocekavany pocet fazi: 13,0384048104053	Prumerny pocet fazi: 41
+Velikost grafu ve skupine: 180	Ocekavany pocet fazi: 13,4164078649987	Prumerny pocet fazi: 45
+Velikost grafu ve skupine: 190	Ocekavany pocet fazi: 13,7840487520902	Prumerny pocet fazi: 49
+Velikost grafu ve skupine: 200	Ocekavany pocet fazi: 14,142135623731	Prumerny pocet fazi: 45

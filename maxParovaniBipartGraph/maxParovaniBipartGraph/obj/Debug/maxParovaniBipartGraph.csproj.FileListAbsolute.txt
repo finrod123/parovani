@@ -1,0 +1,28 @@
+C:\Documents and Settings\Tom\Dokumenty\Visual Studio 2008\Projects\parovani\maxParovaniBipartGraph\maxParovaniBipartGraph\bin\Debug\maxParovaniBipartGraph.pdb
+C:\Documents and Settings\Tom\Dokumenty\Visual Studio 2008\Projects\parovani\maxParovaniBipartGraph\maxParovaniBipartGraph\bin\Debug\BipartGraphCreator.dll
+C:\Documents and Settings\Tom\Dokumenty\Visual Studio 2008\Projects\parovani\maxParovaniBipartGraph\maxParovaniBipartGraph\bin\Debug\BipartGraphCreator.pdb
+C:\Documents and Settings\Tom\Dokumenty\Visual Studio 2008\Projects\parovani\maxParovaniBipartGraph\maxParovaniBipartGraph\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Tom\Dokumenty\Visual Studio 2008\Projects\parovani\maxParovaniBipartGraph\maxParovaniBipartGraph\obj\Debug\maxParovaniBipartGraph.pdb
+C:\Documents and Settings\benat7am\My Documents\Visual Studio 2008\Projects\maxParovaniBipartGraph\maxParovaniBipartGraph\obj\Debug\maxParovaniBipartGraph.exe
+C:\Documents and Settings\benat7am\My Documents\Visual Studio 2008\Projects\maxParovaniBipartGraph\maxParovaniBipartGraph\obj\Debug\maxParovaniBipartGraph.pdb
+C:\Documents and Settings\benat7am\My Documents\Visual Studio 2008\Projects\maxParovaniBipartGraph\maxParovaniBipartGraph\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\benat7am\My Documents\Visual Studio 2008\Projects\maxParovaniBipartGraph\maxParovaniBipartGraph\bin\Debug\maxParovaniBipartGraph.exe
+C:\Documents and Settings\benat7am\My Documents\Visual Studio 2008\Projects\maxParovaniBipartGraph\maxParovaniBipartGraph\bin\Debug\maxParovaniBipartGraph.pdb
+C:\Documents and Settings\benat7am\My Documents\Visual Studio 2008\Projects\maxParovaniBipartGraph\maxParovaniBipartGraph\bin\Debug\BipartGraphCreator.dll
+C:\Documents and Settings\benat7am\My Documents\Visual Studio 2008\Projects\maxParovaniBipartGraph\maxParovaniBipartGraph\bin\Debug\BipartGraphCreator.pdb
+C:\Documents and Settings\benat7am.ROT-115-C\My Documents\Visual Studio 2008\Projects\maxParovaniBipartGraph\maxParovaniBipartGraph\obj\Debug\maxParovaniBipartGraph.pdb
+C:\Documents and Settings\benat7am.ROT-115-C\My Documents\Visual Studio 2008\Projects\maxParovaniBipartGraph\maxParovaniBipartGraph\bin\Debug\maxParovaniBipartGraph.pdb
+C:\Documents and Settings\benat7am.ROT-115-C\My Documents\Visual Studio 2008\Projects\maxParovaniBipartGraph\maxParovaniBipartGraph\bin\Debug\BipartGraphCreator.dll
+C:\Documents and Settings\benat7am.ROT-115-C\My Documents\Visual Studio 2008\Projects\maxParovaniBipartGraph\maxParovaniBipartGraph\bin\Debug\BipartGraphCreator.pdb
+C:\Documents and Settings\benat7am.ROT-115-C\My Documents\Visual Studio 2008\Projects\maxParovaniBipartGraph\maxParovaniBipartGraph\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\benat7am.ROT-115-C\My Documents\Visual Studio 2008\Projects\maxParovaniBipartGraph\maxParovaniBipartGraph\bin\Debug\maxParovaniBipartGraph.dll
+C:\Documents and Settings\benat7am.ROT-115-C\My Documents\Visual Studio 2008\Projects\maxParovaniBipartGraph\maxParovaniBipartGraph\obj\Debug\maxParovaniBipartGraph.dll
+C:\Documents and Settings\Tom\Dokumenty\Visual Studio 2008\Projects\parovani\maxParovaniBipartGraph\maxParovaniBipartGraph\bin\Debug\maxParovaniBipartGraph.dll
+C:\Documents and Settings\Tom\Dokumenty\Visual Studio 2008\Projects\parovani\maxParovaniBipartGraph\maxParovaniBipartGraph\obj\Debug\maxParovaniBipartGraph.dll
+C:\Documents and Settings\benat7am\My Documents\Visual Studio 2008\Projects\parovani\maxParovaniBipartGraph\maxParovaniBipartGraph\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\benat7am\My Documents\Visual Studio 2008\Projects\parovani\maxParovaniBipartGraph\maxParovaniBipartGraph\obj\Debug\maxParovaniBipartGraph.dll
+C:\Documents and Settings\benat7am\My Documents\Visual Studio 2008\Projects\parovani\maxParovaniBipartGraph\maxParovaniBipartGraph\bin\Debug\maxParovaniBipartGraph.dll
+C:\Documents and Settings\benat7am\My Documents\Visual Studio 2008\Projects\parovani\maxParovaniBipartGraph\maxParovaniBipartGraph\bin\Debug\maxParovaniBipartGraph.pdb
+C:\Documents and Settings\benat7am\My Documents\Visual Studio 2008\Projects\parovani\maxParovaniBipartGraph\maxParovaniBipartGraph\bin\Debug\BipartGraphCreator.dll
+C:\Documents and Settings\benat7am\My Documents\Visual Studio 2008\Projects\parovani\maxParovaniBipartGraph\maxParovaniBipartGraph\bin\Debug\BipartGraphCreator.pdb
+C:\Documents and Settings\benat7am\My Documents\Visual Studio 2008\Projects\parovani\maxParovaniBipartGraph\maxParovaniBipartGraph\obj\Debug\maxParovaniBipartGraph.pdb

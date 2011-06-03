@@ -1,0 +1,9 @@
+C:\Documents and Settings\Tom\Dokumenty\Visual Studio 2008\Projects\parovani\testParovani\bin\lessinfo\testParovani.exe
+C:\Documents and Settings\Tom\Dokumenty\Visual Studio 2008\Projects\parovani\testParovani\bin\lessinfo\testParovani.pdb
+C:\Documents and Settings\Tom\Dokumenty\Visual Studio 2008\Projects\parovani\testParovani\bin\lessinfo\maxParovaniBipartGraph.dll
+C:\Documents and Settings\Tom\Dokumenty\Visual Studio 2008\Projects\parovani\testParovani\bin\lessinfo\BipartGraphCreator.dll
+C:\Documents and Settings\Tom\Dokumenty\Visual Studio 2008\Projects\parovani\testParovani\bin\lessinfo\maxParovaniBipartGraph.pdb
+C:\Documents and Settings\Tom\Dokumenty\Visual Studio 2008\Projects\parovani\testParovani\bin\lessinfo\BipartGraphCreator.pdb
+C:\Documents and Settings\Tom\Dokumenty\Visual Studio 2008\Projects\parovani\testParovani\obj\lessinfo\ResolveAssemblyReference.cache
+C:\Documents and Settings\Tom\Dokumenty\Visual Studio 2008\Projects\parovani\testParovani\obj\lessinfo\testParovani.exe
+C:\Documents and Settings\Tom\Dokumenty\Visual Studio 2008\Projects\parovani\testParovani\obj\lessinfo\testParovani.pdb

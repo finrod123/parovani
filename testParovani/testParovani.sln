@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testParovani", "testParovani.csproj", "{5E859ACC-86D2-4BC5-9B8A-2BB7D76D3EF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "maxParovaniBipartGraph", "..\maxParovaniBipartGraph\maxParovaniBipartGraph\maxParovaniBipartGraph.csproj", "{C62D4CE6-C5D9-4D8F-B4A9-EF0FF927B60C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		lessinfo|Any CPU = lessinfo|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E859ACC-86D2-4BC5-9B8A-2BB7D76D3EF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E859ACC-86D2-4BC5-9B8A-2BB7D76D3EF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E859ACC-86D2-4BC5-9B8A-2BB7D76D3EF6}.lessinfo|Any CPU.ActiveCfg = lessinfo|Any CPU
+		{5E859ACC-86D2-4BC5-9B8A-2BB7D76D3EF6}.lessinfo|Any CPU.Build.0 = lessinfo|Any CPU
+		{5E859ACC-86D2-4BC5-9B8A-2BB7D76D3EF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E859ACC-86D2-4BC5-9B8A-2BB7D76D3EF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C62D4CE6-C5D9-4D8F-B4A9-EF0FF927B60C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C62D4CE6-C5D9-4D8F-B4A9-EF0FF927B60C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C62D4CE6-C5D9-4D8F-B4A9-EF0FF927B60C}.lessinfo|Any CPU.ActiveCfg = lessinfo|Any CPU
+		{C62D4CE6-C5D9-4D8F-B4A9-EF0FF927B60C}.lessinfo|Any CPU.Build.0 = lessinfo|Any CPU
+		{C62D4CE6-C5D9-4D8F-B4A9-EF0FF927B60C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C62D4CE6-C5D9-4D8F-B4A9-EF0FF927B60C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

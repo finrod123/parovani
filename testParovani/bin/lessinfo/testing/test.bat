@@ -1,0 +1,2 @@
+cd "C:\Documents and Settings\Tom\Dokumenty\Visual Studio 2008\Projects\parovani\testParovani\bin\lessinfo\testing"
+call "C:\Documents and Settings\Tom\Dokumenty\Visual Studio 2008\Projects\parovani\testParovani\bin\lessinfo\testParovani.exe" input.txt output.txt
