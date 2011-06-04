@@ -8,6 +8,8 @@ using GraphReaderNS;
 using GraphWriterNS;
 using GraphRepresentation;
 using GraphMutatorNS;
+using SpecializedGraphsConvertorNS;
+using StandardToEdgeWeightConvertorNS;
 
 namespace bitGraphsTester
 {
@@ -23,12 +25,7 @@ namespace bitGraphsTester
             GraphWriter gw = new GraphWriter(new FileStream("vystup.txt", FileMode.Create));
             gw.WriteGraph(graph = graphGen.GetNext() as BipartiteNonOrientedIncidenceMatrixGraph);
 
-            EdgeFlipBipartiteNonOrientedGraphMutator<BipartiteNonOrientedIncidenceMatrixGraph>
-                mutator = new EdgeFlipBipartiteNonOrientedGraphMutator<BipartiteNonOrientedIncidenceMatrixGraph>();
-
-            mutator.MutateGraph(ref graph);
-
-            gw.WriteGraph(graph);
+            
 
             gw.Close();
 
