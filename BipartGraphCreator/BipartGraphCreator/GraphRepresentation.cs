@@ -46,7 +46,7 @@ namespace GraphRepresentation
 
     public interface IEdgeMutableGraph
     {
-        void AddEdge(int vertex1, int vertex2);
+        bool AddEdge(int vertex1, int vertex2);
         void RemoveEdge(int vertex1, int vertex2);
     }
 
@@ -77,7 +77,7 @@ namespace GraphRepresentation
         IEdgeMutableGraph
         where T : struct
     {
-        void AddEdge(int vertex1, int vertex2, T edgeValue);
+        bool AddEdge(int vertex1, int vertex2, T edgeValue);
         T EdgeWeight(int vertex1, int vertex2);
         void SetEdgeWeight(int vertex1, int vertex2, T newEdgeValue);
     }
@@ -89,7 +89,6 @@ namespace GraphRepresentation
         ReadOnlyCollection<int> FirstPartityVerticesList { get; }
         ReadOnlyCollection<int> SecondPartityVerticesList { get; }
         ReadOnlyCollection<int> NoPartityVerticesList { get; }
-        EPartity GetVertexPartity(int vertex);
     }
 
     public enum EPartity
@@ -235,15 +234,24 @@ namespace GraphRepresentation
             return matrix[vertex1, vertex2];
         }
 
-        protected void addEdgeHelper(int vertex1, int vertex2)
+        protected bool addEdgeHelper(int vertex1, int vertex2)
         {
+            if (IsEdge(vertex1, vertex2))
+                return true;
+
             matrix[vertex1, vertex2] = true;
+
+            return true;
         }
 
-        public override void AddEdge(int vertex1, int vertex2)
+        public override bool AddEdge(int vertex1, int vertex2)
         {
-            addEdgeHelper(vertex1, vertex2);
+            if (!addEdgeHelper(vertex1, vertex2))
+                return false;
+
             ++edgeCount;
+
+            return true;
         }
 
         protected void removeEdgeHelper(int vertex1, int vertex2)
@@ -359,11 +367,15 @@ namespace GraphRepresentation
                 base.IsEdge(vertex2, vertex1);
         }
 
-        public override void AddEdge(int vertex1, int vertex2)
+        public override bool AddEdge(int vertex1, int vertex2)
         {
-            addEdgeHelper(vertex1, vertex2);
-            addEdgeHelper(vertex2, vertex1);
+            if (!addEdgeHelper(vertex1, vertex2) ||
+               !addEdgeHelper(vertex2, vertex1))
+                return false;
+
             ++edgeCount;
+
+            return true;
         }
 
         public override void RemoveEdge(int vertex1, int vertex2)
@@ -423,16 +435,24 @@ namespace GraphRepresentation
             edgeWeights.Clear();
         }
 
-        protected void addEdgeHelper(int vertex1, int vertex2, T edgeValue)
+        protected bool addEdgeHelper(int vertex1, int vertex2, T edgeValue)
         {
-            addEdgeHelper(vertex1, vertex2);
+            if (!addEdgeHelper(vertex1, vertex2))
+                return false;
+
             SetEdgeWeight(vertex1, vertex2, edgeValue);
+
+            return true;
         }
 
-        public virtual void AddEdge(int vertex1, int vertex2, T edgeValue)
+        public virtual bool AddEdge(int vertex1, int vertex2, T edgeValue)
         {
-            base.AddEdge(vertex1, vertex2);
+            if (!base.AddEdge(vertex1, vertex2))
+                return false;
+
             SetEdgeWeight(vertex1, vertex2, edgeValue);
+
+            return true;
         }
 
         public virtual T EdgeWeight(int vertex1, int vertex2)
@@ -451,9 +471,9 @@ namespace GraphRepresentation
             edgeWeights[vertex1, vertex2] = newEdgeValue;
         }
 
-        public override void AddEdge(int vertex1, int vertex2)
+        public override bool AddEdge(int vertex1, int vertex2)
         {
- 	        AddEdge(vertex1, vertex2, default(T));
+ 	        return AddEdge(vertex1, vertex2, default(T));
         }
 
         public override int AddVertex()
@@ -544,16 +564,20 @@ namespace GraphRepresentation
             base(id, vertexCount, type, EGraphOrientation.NonOriented)
         { }
 
-        public override void AddEdge(int vertex1, int vertex2, T edgeValue)
+        public override bool AddEdge(int vertex1, int vertex2, T edgeValue)
         {
-            addEdgeHelper(vertex1, vertex2, edgeValue);
-            addEdgeHelper(vertex2, vertex1, edgeValue);
+            if (!addEdgeHelper(vertex1, vertex2, edgeValue) ||
+               !addEdgeHelper(vertex2, vertex1, edgeValue))
+                return false;
+
             ++edgeCount;
+
+            return true;
         }
 
-        public override void AddEdge(int vertex1, int vertex2)
+        public override bool AddEdge(int vertex1, int vertex2)
         {
-            AddEdge(vertex1, vertex2, default(T));
+            return AddEdge(vertex1, vertex2, default(T));
         }
 
         public override void RemoveEdge(int vertex1, int vertex2)
@@ -602,14 +626,7 @@ namespace GraphRepresentation
         NonOrientedIncidenceMatrixGraph,
         IBipartiteGraph
     {
-        int firstPartitySize,
-            secondPartitySize;
-
-        List<int> firstPartity,
-                  secondPartity,
-                  noPartity;
-
-        Dictionary<int, EPartity> vertexToPartity;
+        PartitionInfo partityInfo;
 
         public BipartiteNonOrientedIncidenceMatrixGraph(
             int vertexCount,
@@ -624,44 +641,37 @@ namespace GraphRepresentation
             int firstPartitySize) :
             base(id, vertexCount, EGraphType.Bipartite, EEdgeInfoType.Standard) {
 
-            this.firstPartitySize = firstPartitySize;
-            this.secondPartitySize = vertexCount - firstPartitySize;
-
-            firstPartity = new List<int>(firstPartitySize);
-            secondPartity = new List<int>(secondPartitySize);
-            noPartity = new List<int>();
-
-            vertexToPartity = new Dictionary<int, EPartity>(vertexCount);
+                partityInfo = new PartitionInfo(vertexCount, firstPartitySize);
         }
 
         public int FirstPartitySize
         {
-            get { return firstPartitySize; }
+            get { return partityInfo.FirstPartitySize; }
         }
 
         public int SecondPartitySize
         {
-            get { return secondPartitySize; }
+            get { return partityInfo.SecondPartitySize; }
         }
 
         public ReadOnlyCollection<int> FirstPartityVerticesList
         {
-            get { return firstPartity.AsReadOnly(); }
+            get { return partityInfo.FirstPartityVerticesList; }
         }
 
         public ReadOnlyCollection<int> SecondPartityVerticesList
         {
-            get { return secondPartity.AsReadOnly(); }
+            get { return partityInfo.SecondPartityVerticesList; }
         }
 
         public ReadOnlyCollection<int> NoPartityVerticesList
         {
-            get { return noPartity.AsReadOnly(); }
+            get { return partityInfo.NoPartityVerticesList; }
         }
 
-        public EPartity GetVertexPartity(int vertex)
+        public override bool AddEdge(int vertex1, int vertex2)
         {
-            return vertexToPartity[vertex];
+            return base.AddEdge(vertex1, vertex2);
         }
     }
 
@@ -706,19 +716,9 @@ namespace GraphRepresentation
         }
     }
 
-    public interface IPartitionInfo
-    {
-        int FirstPartitySize { get; }
-        int SecondPartitySize { get; }
-        ReadOnlyCollection<int> FirstPartityVerticesList { get; }
-        ReadOnlyCollection<int> SecondPartityVerticesList { get; }
-        ReadOnlyCollection<int> NoPartityVerticesList { get; }
-    }
-
-    class PartitionInfo : IPartitionInfo
+    class PartitionInfo
     {
         int firstPartitySize, secondPartitySize;
-        bool canAddEdge;
 
         List<int> firstPartity,
                   secondPartity,
@@ -726,17 +726,14 @@ namespace GraphRepresentation
 
         Dictionary<int, EPartity> vertexToPartity;
 
-        public PartitionInfo(int firstPartitySize, int secondPartitySize)
+        public PartitionInfo(int vertexCount, int firstPartitySize)
         {
-            int vertexCount = firstPartitySize + secondPartitySize;
-
             Debug.Assert(0 < firstPartitySize &&
                          firstPartitySize < vertexCount);
 
             this.firstPartitySize = firstPartitySize;
-            this.secondPartitySize = secondPartitySize;
-            canAddEdge = false;
-
+            this.secondPartitySize = vertexCount - firstPartitySize;
+            
             firstPartity = new List<int>(firstPartitySize);
             secondPartity = new List<int>(secondPartitySize);
             noPartity = new List<int>();
@@ -781,28 +778,32 @@ namespace GraphRepresentation
             noPartity.Remove(vertex);
         }
 
-        public bool CanAddEdge(int vertex1, int vertex2)
-        {
-            return canAddEdge = vertexToPartity[vertex1] != vertexToPartity[vertex2];
-        }
-
         public bool AddEdge(int vertex1, int vertex2)
         {
-            if (!canAddEdge &&
-               !CanAddEdge(vertex1, vertex2))
-            {
-                return false;
-            }
-
             EPartity vertex1Partity = vertexToPartity[vertex1],
                      vertex2Partity = vertexToPartity[vertex2],
                      oppositeVertexPartity = default(EPartity);
+
+            if (((vertex1Partity == EPartity.First && vertex2Partity == EPartity.First) ||
+                 (vertex1Partity == EPartity.Second && vertex2Partity == EPartity.Second))
+                   == false)
+            {
+                return false;
+            }
 
             int vertex = 0;
 
             bool addingNoPartityVertex = false;
 
-            if (vertex1Partity == EPartity.None)
+            if (vertex1Partity == EPartity.None &&
+                vertex2Partity == EPartity.None)
+            {
+                AddVertexToPartity(vertex2, EPartity.First);
+                
+                oppositeVertexPartity = vertexToPartity[vertex2] = EPartity.Second;
+                vertex = vertex1;
+                addingNoPartityVertex = true;
+            } else if (vertex1Partity == EPartity.None)
             {
                 vertex = vertex1;
                 oppositeVertexPartity = vertexToPartity[vertex2];
@@ -816,25 +817,57 @@ namespace GraphRepresentation
 
             if (addingNoPartityVertex)
             {
-                noPartity.Remove(vertex);
-
-                if (oppositeVertexPartity == EPartity.First)
-                {
-                    vertexToPartity[vertex] = EPartity.Second;
-                    secondPartity.Add(vertex);
-                } else
-                {
-                    vertexToPartity[vertex] = EPartity.First;
-                    firstPartity.Add(vertex);
-                }
+                AddVertexToPartity(vertex, oppositeVertexPartity);
             }
 
             return true;
         }
 
-        public void RemoveEdge(int vertex1, int vertex2, bool hasNeighbors)
+        void AddVertexToPartity(int vertex, EPartity oppositePartity)
         {
+            noPartity.Remove(vertex);
 
+            if (oppositePartity == EPartity.First)
+            {
+                secondPartity.Add(vertex);
+                vertexToPartity[vertex] = EPartity.Second;
+                ++secondPartitySize;
+            } else
+            {
+                firstPartity.Add(vertex);
+                vertexToPartity[vertex] = EPartity.First;
+                ++firstPartitySize;
+            }
+        }
+
+        void RemoveVertexFromPartity(int vertex)
+        {
+            noPartity.Add(vertex);
+            vertexToPartity[vertex] = EPartity.None;
+
+            if (vertexToPartity[vertex] == EPartity.First)
+            {
+                firstPartity.Remove(vertex);
+                --firstPartitySize;
+            } else
+            {
+                secondPartity.Remove(vertex);
+                --secondPartitySize;
+            }
+        }
+
+        public void RemoveEdge(int vertex1, int vertex2,
+            bool firstRemovingLastEdge, bool secondRemovingLastEdge)
+        {
+            if (firstRemovingLastEdge)
+            {
+                RemoveVertexFromPartity(vertex1);
+            }
+
+            if (secondRemovingLastEdge)
+            {
+                RemoveVertexFromPartity(vertex2);
+            }
         }
     }
 }
