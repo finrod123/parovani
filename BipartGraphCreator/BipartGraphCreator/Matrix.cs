@@ -34,7 +34,9 @@ namespace MatrixNS
                          0 < n);
             rows = m;
             cols = n;
-            elements = new List<T>();
+
+            elements = new List<T>(rows * cols);
+            initElements();
 
             Clear();
         }
@@ -57,11 +59,22 @@ namespace MatrixNS
             }
         }
 
+        void initElements()
+        {
+            for (int i = 0; i < rows; ++i)
+            {
+                for (int j = 0; j < cols; ++j)
+                {
+                    elements.Add(default(T));
+                }
+            }
+        }
+
         public void Clear()
         {
             for (int i = 0; i < rows; ++i)
                 for (int j = 0; j < cols; ++j)
-                    elements.Add(default(T));
+                    elements[i * cols + j] = default(T);
         }
 
         public int Rows

@@ -53,6 +53,7 @@ namespace GraphRepresentation
     public interface IVertexMutableGraph
     {
         int AddVertex();
+        void AddVertices(int count);
         void RemoveVertex(int vertex);
     }
 
@@ -130,6 +131,8 @@ namespace GraphRepresentation
             this.vertexCount = vertexCount;
             
             vertices = new List<int>(vertexCount);
+            initVerticesList();
+            maxVertexNumber = vertexCount - 1;
 
             this.type = type;
             this.orientation = orientation;
@@ -138,20 +141,54 @@ namespace GraphRepresentation
             this.edgeInfoType = edgeInfoType;
         }
 
+        void initVerticesList()
+        {
+            for (int i = 0; i < vertexCount; ++i)
+            {
+                vertices.Add(i);
+            }
+        }
+
+        protected void setMaxVertexNumberAfterAdd(int lastAddedVertex)
+        {
+            maxVertexNumber = Math.Max(maxVertexNumber, lastAddedVertex);
+        }
+
         protected int vertex2MatrixIndex(int vertexLogical)
         {
             return vertices.IndexOf(vertexLogical);
         }
 
-        protected void setMaxVertexNumberAfterRemove(int lastMaxVertexNumber)
+        protected int matrixIndex2Vertex(int vertexPhysical)
         {
-            for (int i = lastMaxVertexNumber - 1; i >= 0; --i)
+            return vertices[vertexPhysical];
+        }
+
+        protected void setMaxVertexNumberAfterRemove()
+        {
+            for (int i = maxVertexNumber - 1; i >= -1; --i)
+            {
+                if (vertices.Contains(i))
+                {
+                    maxVertexNumber = i;
+                    return;
+                }
+            }
+
+            maxVertexNumber = -1;
+        }
+
+        protected int getNextVertexNumber()
+        {
+            for (int i = 0; i < maxVertexNumber; ++i)
             {
                 if (!vertices.Contains(i))
                 {
-
+                    return i;
                 }
             }
+
+            return maxVertexNumber + 1;
         }
 
         public int Id
@@ -204,6 +241,7 @@ namespace GraphRepresentation
 
 
         public abstract int AddVertex();
+        public abstract void AddVertices(int count);
         public abstract void RemoveVertex(int vertex);
         public abstract bool AddEdge(int vertex1, int vertex2);
         public abstract void  RemoveEdge(int vertex1, int vertex2);
@@ -228,7 +266,6 @@ namespace GraphRepresentation
             EGraphRepresentation.IncidenceMatrix, mutability, edgeInfoType)
         {
             matrix = new Matrix<bool>(vertexCount, vertexCount);
-            matrix.Clear();
         }
 
         public virtual bool LoadIncidenceMatrix(string matrixString)
@@ -292,34 +329,42 @@ namespace GraphRepresentation
 
         public override int AddVertex()
         {
+            int vertex = getNextVertexNumber();
+
             matrix.AddRow();
             matrix.AddCol();
-            ++vertexCount;
             
-            int vertex = getNextVertexNumber();
             vertices.Add(vertex);
+            setMaxVertexNumberAfterAdd(vertex);
 
+            ++vertexCount;
             return vertex;
         }
 
-        protected int getNextVertexNumber()
+        public override void AddVertices(int count)
         {
-            for(int i = 0; i < 
+            for (int i = 0; i < count; ++i)
+            {
+                AddVertex();
+            }
         }
 
         public override void RemoveVertex(int vertex)
         {
             RemoveNeighbors(vertex);
 
-            matrix.RemoveRow(vertex);
-            matrix.RemoveCol(vertex);
+            matrix.RemoveRow(vertex2MatrixIndex(vertex));
+            matrix.RemoveCol(vertex2MatrixIndex(vertex));
+
+            vertices.Remove(vertex);
+            setMaxVertexNumberAfterRemove();
 
             --vertexCount;
         }
 
         protected virtual void RemoveNeighbors(int vertex)
         {
-            for (int i = 0; i < vertexCount; ++i)
+            foreach(int i in vertices)
             {
                 if (IsEdge(vertex, i))
                 {
@@ -330,7 +375,7 @@ namespace GraphRepresentation
 
         protected bool hasInNeighbors(int vertex)
         {
-            for (int i = 0; i < vertexCount; ++i)
+            foreach(int i in vertices)
             {
                 if (IsEdge(i, vertex))
                     return true;
@@ -340,7 +385,7 @@ namespace GraphRepresentation
         }
         protected bool hasOutNeighbors(int vertex)
         {
-            for (int i = 0; i < vertexCount; ++i)
+            foreach(int i in vertices)
             {
                 if (IsEdge(vertex, i))
                     return true;
@@ -377,12 +422,12 @@ namespace GraphRepresentation
         {
             StringBuilder sb = new StringBuilder();
 
-            for (int i = 0; i < vertexCount; ++i)
+            foreach (int i in vertices)
             {
 
                 bool hasEdge = false;
 
-                for (int j = 0; j < vertexCount; ++j)
+                foreach (int j in vertices)
                 {
                     if (IsEdge(i, j))
                     {
@@ -461,7 +506,7 @@ namespace GraphRepresentation
                 bool hasEdge = false;
 
                 for (int j = i + 1; j < vertexCount; ++j) {
-                    if (IsEdge(i, j)) {
+                    if (IsEdge(matrixIndex2Vertex(i), matrixIndex2Vertex(j))) {
                         if (!hasEdge)
                         {
                             sb.AppendFormat(":{0}", i);
@@ -542,7 +587,7 @@ namespace GraphRepresentation
 
         public virtual void SetEdgeWeight(int vertex1, int vertex2, T newEdgeValue)
         {
-            edgeWeights[vertex1, vertex2] = newEdgeValue;
+            edgeWeights[vertex2MatrixIndex(vertex1), vertex2MatrixIndex(vertex2)] = newEdgeValue;
         }
 
         public override bool AddEdge(int vertex1, int vertex2)
@@ -570,12 +615,12 @@ namespace GraphRepresentation
         {
             StringBuilder sb = new StringBuilder();
 
-            for (int i = 0; i < vertexCount; ++i)
+            foreach (int i in vertices)
             {
 
                 bool hasEdge = false;
 
-                for (int j = 0; j < vertexCount; ++j)
+                foreach (int j in vertices)
                 {
                     if (IsEdge(i, j))
                     {
@@ -680,7 +725,7 @@ namespace GraphRepresentation
 
                 for (int j = i + 1; j < vertexCount; ++j)
                 {
-                    if (IsEdge(i, j))
+                    if (IsEdge(matrixIndex2Vertex(i), matrixIndex2Vertex(j)))
                     {
                         if (!hasEdge)
                         {

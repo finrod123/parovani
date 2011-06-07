@@ -36,30 +36,35 @@ namespace bitGraphsTester
             gr.Close();
 
             foreach (int i in g.FirstPartityVerticesList)
-                Console.WriteLine(i);
+                Console.WriteLine("{0}, ", i);
+            Console.WriteLine();
             foreach (int i in g.SecondPartityVerticesList)
-                Console.WriteLine(i);
+                Console.WriteLine("{0}, ", i);
 
             if (!g.AddEdge(3, 7))
                 Console.WriteLine("Nejde pridat!");
             else
                 Console.WriteLine("Jde pridat!");
+            
+            g.AddVertex();
+            g.AddVertex();
 
-            g.AddVertex();
-            g.AddVertex();
+
 
             g.AddEdge(10, 11);
             g.RemoveVertex(0);
             g.RemoveVertex(1);
+            g.RemoveVertex(2);
 
+            Console.WriteLine("Prvni partita");
             foreach (int i in g.FirstPartityVerticesList)
-                Console.WriteLine(i);
-            Console.WriteLine();
+                Console.WriteLine("{0}, ", i);
+            Console.WriteLine("Druha partita");
             foreach (int i in g.SecondPartityVerticesList)
-                Console.WriteLine(i);
-            Console.WriteLine();
+                Console.WriteLine("{0}, ", i);
+            Console.WriteLine("Zadna partita");
             foreach (int i in g.NoPartityVerticesList)
-                Console.WriteLine(i);
+                Console.WriteLine("{0}, ", i);
             Console.ReadKey();
         }
     }
